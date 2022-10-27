@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+};
+
+.menuMainheader{
+    background-color: rgb(109, 29, 236);
+    width: 100%;
+    /* padding-top: 5rem; */
+}
+.r8{
+    float: right;
+    width: 70%;
+}
+.r8 ul{
+    text-align: center;
+    
+}
+.r8 ul li{
+    display: inline;
+}
+.r8 ul li a{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 65px;
+    text-decoration: none;
+    padding: 0 8px;
+    color:#000;
+
+}
+
+.fixwidth{
+    width: 90%;
+    margin: 0 auto;
+}
+.fixfloat::after{
+    clear: both;
+    content: " ";
+    display: block;
+
+}
+.mainSection{
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    background-color: #000;
+    color: #fff;
+
+}
