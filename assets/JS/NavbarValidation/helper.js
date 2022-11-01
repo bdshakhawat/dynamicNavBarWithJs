@@ -1,6 +1,6 @@
 // Helper function for menuName validation
 function menuNameValidation(navmenuObject){
-        // console.log(navmenuObject);
+        console.log(navmenuObject);
         // Base menuName list
         let allowedMenuNameList=["Home","About","Menu","BookATable","Features","Blog","Shop","Elements"];
         // Logic to compate with Base menuName
